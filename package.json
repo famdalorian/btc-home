@@ -1,0 +1,36 @@
+{
+  "name": "forth",
+  "version": "1.0.0",
+  "description": "Home Page for FORTH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "nodemon index.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run backend \" \"npm run frontend\"",
+    "deploy": "npm run build --prefix frontend && ipd -p pinata -d build"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/famdalorian/FORTH.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/famdalorian/FORTH/issues"
+  },
+  "homepage": "https://github.com/famdalorian/FORTH#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "magic-sdk": "^21.2.1",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}

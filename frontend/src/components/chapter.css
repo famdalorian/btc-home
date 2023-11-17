@@ -1,0 +1,72 @@
+/* chapter.css */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #282c35;
+    background: url(../../public/images/time.jpeg);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .chapter-box {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #1e232b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: silver 3px 6px 9px;
+  }
+  
+  h1 {
+    color: #4caf50;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 2.6;
+    margin-bottom: 19px;
+    font-size: 18px;
+    background-color: #17151c;
+    opacity: 90%;
+
+  }
+  
+  a {
+    color: gold;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+  
+  a:hover {
+    border-bottom: 2px solid teal;
+  }
+  
+  .chapter-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .chapter-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .chapter-button button:hover {
+    background-color: #2980b9;
+  }
+  
+  .chapter-background {
+    background: url(../../public/images/frog.jpeg);
+    box-shadow: silver 3px 6px 9px;
+  }
+  

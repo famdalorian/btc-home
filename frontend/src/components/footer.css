@@ -1,0 +1,39 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2b2b2b;
+    color: #fff;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 66px; /* Set a fixed height for the footer */
+    display: flex;
+    flex-direction: row;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1; /* Initially visible */
+  }
+  
+  .footerItem {
+    text-align: left;
+  }
+  
+  .footerTitle {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .footerListItem {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+  
+  .footerSocial {
+    display: flex;
+  }
+  
+  .TopIcon {
+    margin-right: 10px;
+    color: #fff;
+  }
+  

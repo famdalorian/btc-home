@@ -1,0 +1,32 @@
+/* Add this CSS to a new or existing stylesheet (e.g., SocialLogIn.css) */
+button {
+    width: 100px; /* Set the width of your buttons */
+    height: 100px; /* Set the height of your buttons */
+    margin: 5px; /* Add margin between buttons */
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .connect-button {
+    color: black;
+    text-shadow: white 2px 2px 2px;
+    background-image: url('../Images/BTC.jpeg'); /* Replace 'path/to/connect-button.jpg' with the actual path to your connect button image */
+  }
+  
+  .wallet-button {
+    background-image:url('../Images/wallet.jpeg');; /* Replace 'path/to/wallet-button.jpg' with the actual path to your wallet button image */
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-color: transparent;
+    background-size: 90%;
+    color: #17151c;
+    text-shadow: red 1px 1px 1px;
+}
+  
+  .disconnect-button {
+    background-image: url('../../public/images/exit.png');
+    background-size: 90%;
+    background-repeat:no-repeat;
+  }
+  
