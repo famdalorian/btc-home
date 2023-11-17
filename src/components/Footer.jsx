@@ -11,9 +11,15 @@ export default function Footer() {
       footer.style.opacity = 0; // Hide the footer
     }
 
+    function showFooter() {
+      const footer = document.querySelector('.footer');
+      footer.style.opacity = 1; // Show the footer again
+    }
+
     function resetTimer() {
       clearTimeout(timeoutId);
-      timeoutId = setTimeout(hideFooter, 2000); // Set the timer for 20 seconds
+      hideFooter(); // Hide the footer initially
+      timeoutId = setTimeout(showFooter, 2000); // Set the timer for 2 seconds
     }
 
     document.addEventListener('mousemove', resetTimer);
@@ -27,6 +33,7 @@ export default function Footer() {
       document.removeEventListener('mousemove', resetTimer);
       document.removeEventListener('keydown', resetTimer);
       clearTimeout(timeoutId);
+      showFooter(); // Ensure the footer is visible when the component is unmounted
     };
   }, []);
 
