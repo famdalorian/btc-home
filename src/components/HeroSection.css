@@ -29,3 +29,10 @@
   font-size: 14px;
   font-weight: bold;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .tag-link {
+    flex-basis: 100%; /* Make the tags full width on smaller screens */
+  }
+}
