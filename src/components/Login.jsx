@@ -43,7 +43,7 @@ function SocialLogIn() {
 
   return (
     <div>
-      {!isLoggedIn && <button className="connect-button" onClick={connectWallet}><h2></h2></button>}
+      {!isLoggedIn && <button className="connect-button" onClick={connectWallet}><h2><h1>login</h1>  </h2></button>}
       {isLoggedIn && (
         <>
           <button className="wallet-button" onClick={showWallet}>
