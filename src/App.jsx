@@ -1,4 +1,3 @@
-// App.js or your main application file
 import React from "react";
 import {
   BrowserRouter as Router,
