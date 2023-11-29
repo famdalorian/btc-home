@@ -1,5 +1,7 @@
 import React from "react";
 import C1text from "../components/C1text";
+import "../App.css";
+
 
 function Chapters() {
   return (

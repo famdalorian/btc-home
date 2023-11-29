@@ -16,7 +16,6 @@ import "../src/App.css";
 
 function App() {
   return (
-    
     <HashRouter>
       <Topbar />
 
@@ -26,7 +25,6 @@ function App() {
         <Route path="/episodes" element={<Episodes />} />
         <Route path="/book-of-xxisp" element={<BookOfXXisp />} />
       </Routes>
-
       <Footer />
     </HashRouter>
   );

@@ -1,32 +1,32 @@
-/* Add this CSS to a new or existing stylesheet (e.g., SocialLogIn.css) */
+/* Continue the same dark theme with teal and gold */
+
 button {
-    width: 100px; /* Set the width of your buttons */
-    height: 100px; /* Set the height of your buttons */
-    margin: 5px; /* Add margin between buttons */
-    background-size: cover;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .connect-button {
-    color: black;
-    text-shadow: white 2px 2px 2px;
-    background-image: url('../Images/BTC.jpeg'); /* Replace 'path/to/connect-button.jpg' with the actual path to your connect button image */
-  }
-  
-  .wallet-button {
-    background-image:url('../Images/wallet.jpeg');; /* Replace 'path/to/wallet-button.jpg' with the actual path to your wallet button image */
-    background-repeat: no-repeat;
-    background-position: 10px;
-    background-color: transparent;
-    background-size: 90%;
-    color: #17151c;
-    text-shadow: red 1px 1px 1px;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-size: cover;
+  border: none;
+  cursor: pointer;
 }
-  
-  .disconnect-button {
-    background-image: url('../../public/images/exit.png');
-    background-size: 90%;
-    background-repeat:no-repeat;
-  }
-  
+
+.connect-button {
+  color: #ffd700; /* Gold color */
+  text-shadow: #fff 2px 2px 2px;
+  background-image: url('../Images/BTC.jpeg');
+}
+
+.wallet-button {
+  background-image: url('../Images/wallet.jpeg');
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-color: transparent;
+  background-size: 90%;
+  color: #17151c; /* Dark background color */
+  text-shadow: #ff0000 1px 1px 1px; /* Red text shadow */
+}
+
+.disconnect-button {
+  background-image: url('../../public/images/exit.png');
+  background-size: 90%;
+  background-repeat: no-repeat;
+}

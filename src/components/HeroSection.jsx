@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const HeroSection = () => {
   // Sample data for image tags
   const tagData = [
-    { id: 1, imageSrc: '/images/image1.jpg', tag: 'XXisp: Founder', link: '/' },
+    { id: 1, imageSrc: '/images/image1.jpg', tag: 'XXisp: Founder', link: '/About' },
     { id: 2, imageSrc: '/images/image2.jpg', tag: 'Shop', link: '/Shop' },
     { id: 3, imageSrc: '/images/image3.jpg', tag: 'Urchins NFT Collection', link: '/Urchins' },
     { id: 4, imageSrc: '/images/image4.jpg', tag: 'Beyond The Canvas Podcast', link: '/Episodes' },
