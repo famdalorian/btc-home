@@ -1,30 +1,19 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React from "react";
 import "../App.css";
 
 const NewsFeedSection = () => {
-  const [tweets, setTweets] = useState([]);
-
-  useEffect(() => {
-    // Function to fetch recent tweets
-    const fetchTweets = async () => {
-      try {
-        const response = await axios.get("/api/twitter/recent"); // Replace with your actual API endpoint
-        setTweets(response.data);
-      } catch (error) {
-        console.error("Error fetching tweets:", error);
-      }
-    };
-
-    // Call the function to fetch tweets
-    fetchTweets();
-  }, []);
+  // Mock data, replace it with your actual data structure
+  const mockTweets = [
+    { id: 1, user: { name: "User1" }, text: "This is tweet 1" },
+    { id: 2, user: { name: "User2" }, text: "This is tweet 2" },
+    // Add more mock tweets as needed
+  ];
 
   return (
     <div className="news-feed-section posts-container">
       <h2 className="subheading">News Feed</h2>
       <ul>
-        {tweets.map((tweet) => (
+        {mockTweets.map((tweet) => (
           <li key={tweet.id}>
             <strong>{tweet.user.name}</strong>: {tweet.text}
           </li>
