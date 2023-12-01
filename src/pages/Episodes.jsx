@@ -3,7 +3,6 @@
 import React from "react";
 import "../App.css";
 import SocialMediaSection from "../components/SocialMediaSection"; // Import the SocialMediaSection component
-import NewsFeedSection from "../components/NewsFeedSection"; // Import the NewsFeedSection component
 import PodcastHeroSection from "../components/PodcastHeroSection";
 
 const episodesData = [
@@ -13,6 +12,12 @@ const episodesData = [
     description: "Join us for an exciting introduction to our podcast series.",
     src: "https://podcastle.ai/show/episode-embed-player/CBF0/A2DD?theme=system&mode=compact",
   },
+  // {
+  //   id: 1,
+  //   title: "Episode 1: Introduction to the Podcast",
+  //   description: "Join us for an exciting introduction to our podcast series.",
+  //   src: "https://podcastle.ai/show/episode-embed-player/CBF0/A2DD?theme=system&mode=compact",
+  // },
   // Add more episodes as needed
 ];
 
@@ -38,7 +43,7 @@ const Episodes = () => {
       </div>
       <PodcastHeroSection/>
       <SocialMediaSection />
-      <NewsFeedSection />
+     
     </div>
   );
 };

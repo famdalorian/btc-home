@@ -1,16 +1,10 @@
-/* App.css */
-
+/* General Styles */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   background-color: #1a1a1a;
   color: #fff;
-}
-
-.about-container {
-  text-align: center;
-  padding: 20px;
 }
 
 .section {
@@ -27,9 +21,17 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.section-text {
-  font-size: 1.2em;
-  line-height: 1.6;
+/* Responsive Typography */
+@media screen and (min-width: 768px) {
+  .section-header {
+    font-size: 2.5em; /* Adjust font size for larger screens */
+  }
+}
+
+/* About Section */
+.about-container {
+  text-align: center;
+  padding: 20px;
 }
 
 .about-me-content {
@@ -95,19 +97,19 @@ body {
   }
 }
 
-
+/* TopBar */
 .TopBar {
   width: 100%;
-  height: auto; /* Adjusted height to be auto for better responsiveness */
+  height: auto;
   background-color: #17151c;
   position: relative;
   top: 0;
   display: flex;
-  flex-direction: column; /* Changed flex direction to column on smaller screens */
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px; /* Adjusted padding for better spacing */
+  padding: 10px;
 }
 
 .TopLeft,
@@ -137,15 +139,15 @@ body {
 
 .TopList {
   display: flex;
-  flex-wrap: wrap; /* Allow list items to wrap on smaller screens */
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
-  justify-content: center; /* Center list items */
+  justify-content: center;
 }
 
 .topListItem {
-  margin: 10px; /* Adjusted margin for better spacing */
+  margin: 10px;
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
@@ -156,9 +158,10 @@ body {
   font-size: 18px;
   color: #8d918d;
   cursor: pointer;
-  margin-top: 10px; /* Adjusted margin for better spacing */
+  margin-top: 10px;
 }
-/* episodes.css */
+
+/* Podcast Page */
 .podcast-page {
   text-align: center;
   padding: 20px;
@@ -202,13 +205,14 @@ body {
   line-height: 1.5;
 }
 
-/* Responsive styles */
+/* Responsive styles for episodes */
 @media (max-width: 768px) {
   .episode-box {
-      padding: 15px;
+    padding: 15px;
   }
 }
-/* news-feed-section.css */
+
+/* News Feed Section */
 .news-feed-section {
   background-color: #333;
   padding: 20px;
@@ -216,13 +220,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-top: 20px;
   text-align: center;
-}
-
-.subheading {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #bf7c17;
-  margin-bottom: 10px;
 }
 
 .news-list {
@@ -240,79 +237,10 @@ body {
   color: gold;
 }
 
-/* social-media-section.css */
+/* Social Media Section */
 .social-media-section {
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  margin-top: 20px;
-  text-align: center;
-}
-
-.subheading {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #bf7c17;
-  margin-bottom: 10px;
-}
-
-a {
-  color: gold;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-.TopIcon {
-  font-size: 30px;
-}
-
-a:hover {
-  color: teal;
-}
-/* App.css or a dedicated stylesheet */
-.news-feed-section {
-  font-size: 1em;
-
-  @media screen and (min-width: 768px) {
-    font-size: 1.2em; /* Adjust font size for larger screens */
-  }
-}
-/* App.css or a dedicated stylesheet */
-.hero-text {
-  font-size: 2em;
-
-  @media screen and (min-width: 768px) {
-    font-size: 3em; /* Adjust font size for larger screens */
-  }
-}
-.podcast-hero-section {
-  text-align: center;
-  padding: 20px;
-  background-color: #282c35; /* Adjust the background color */
-  color: #fff;
-}
-
-.podcast-info {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.podcast-service-links {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.service-link {
-  margin: 0 15px;
-}
-
-.service-link i {
-  font-size: 36px;
-  color: #ffcc00; /* Adjust the icon color */
-}
-
-.service-link p {
-  margin-top: 10px;
+  box-shadow: 0 0 
 }
