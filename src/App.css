@@ -244,3 +244,32 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 
 }
+.btc-hoodie{
+  min-width: 10vh;
+  min-height: 10vh;
+  background-image: url('https://707600-4.myshopify.com/cdn/shop/files/6591690103944600904_2048.jpg?v=1701444350&width=1206');
+}
+.shop-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.shop-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.shop-link:hover {
+  color: teal;
+}
+
+.btc-hoodie {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://707600-4.myshopify.com/cdn/shop/files/6591690103944600904_2048.jpg?v=1701444350&width=1206');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
