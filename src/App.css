@@ -273,3 +273,13 @@ body {
   margin-top: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+.scouse-jumper {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://707600-4.myshopify.com/cdn/shop/files/5271224077752847905_2048.jpg?v=1701946979&width=823');
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
