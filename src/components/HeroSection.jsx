@@ -47,8 +47,8 @@ const HeroSection = () => {
         </Link>
       ))}{" "}
       <div className="news">
-        {" "}
-        <NewsFeedSection />
+        {/* {" "}
+        <NewsFeedSection /> */}
       </div>{" "}
     </div>
   );
